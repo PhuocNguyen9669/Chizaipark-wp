@@ -1,0 +1,673 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* STYLE
+*
+***************************************************************************/
+/*gen info*/
+#fixH {
+	height: 153px !important;
+}
+
+p.item-notfound {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+#main .mainTitle{
+	font-weight: bold;
+	padding-left: 60px;
+	position: relative;
+}
+#main .mainTitle:after{
+	content: "";
+	position: absolute;
+	background: url(../images/joseikin/icon-pen-title.svg) no-repeat;
+	background-size: 100%;
+	width: 41px;
+	height: 41px;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+/*gen info*/
+
+
+#breadcrumbs{
+	margin-bottom: 6px;
+}
+.wrapContent{
+	overflow: hidden;
+	margin-bottom: 86px;
+}
+.wrapContent .contentLetf{
+	width: 760px;
+	float: left;
+}
+
+.wrapContent .areaInfomation .infoTitle{
+	font-size: 18px;
+	padding-left: 30px;
+	background: url(../images/joseikin/icon-pen.svg) no-repeat left center;
+	background-size: 20px 20px;
+	margin-bottom: 35px;
+	letter-spacing: 2px;
+}
+.wrapContent .sideBar{
+	float: right;
+	width: 390px;
+	background: #FAF5E7;
+	margin-top: 5px;
+	border-radius: 14px;
+	padding-top: 27px;
+}
+
+.wrapContent .sideBar .boxRegion .regionTitle{
+	font-size: 18px;
+	font-weight: normal;
+	color: #333333;
+	position: relative;
+	padding-left: 19px;
+	letter-spacing: 2px;
+	margin-bottom: 8px;
+}
+.wrapContent .sideBar .boxRegion .regionTitle:after{
+	content: "";
+    position: absolute;
+    background: #F77E13;
+    width: 5px;
+    height: 50px;
+    left: 0;
+    top: 48%;
+    transform: translateY(-50%);
+}
+
+.wrapContent .sideBar .boxRegion .regionBox{
+	padding: 25px 0 13px 20px;
+	border-bottom: 1px dotted #707070;
+}
+.wrapContent .sideBar .boxRegion .regionBox:last-child{
+	border-bottom: none;
+}
+.wrapContent .sideBar .boxRegion .regionBox .listregionTitle{
+	font-size: 20px;
+	font-weight: normal;
+	padding-left: 32px;
+	background: url(../images/joseikin/icon-list.svg) no-repeat left center;
+	background-size: 21px 21px;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.wrapContent .sideBar .boxRegion .regionBox .listregionTitle.first{
+	font-weight: bold;
+}
+
+.wrapContent .sideBar .boxRegion .regionBox .listregion{
+	margin-left: 25px;
+}
+.wrapContent .sideBar .boxRegion .regionBox .listregion li{
+	display: inline-block;
+	margin-right: 18px;
+	margin-bottom: 16px;
+}
+
+.wrapContent .sideBar .boxRegion .regionBox .listregion li a{
+	font-size: 16px;
+}
+.wrapContent .sideBar .boxRegion .regionBox .listregion li span{
+	padding-left: 13px;
+	letter-spacing: 2px;
+	background: url(../images/joseikin/play-arrow.svg) no-repeat left top 8px;
+	background-size: 8px 10px;
+	transition: all 0.2s;
+
+}
+
+.areaInfomation .boxNarrow{
+	background: #FAF5E7;
+	border-radius: 20px;
+	padding: 26px 25px 39px 25px;
+	margin-bottom: 52.5px;
+}
+
+.areaInfomation .boxNarrow .narrowTitle{
+	font-size: 18px;
+	font-weight: normal;
+	color: #333333;
+	position: relative;
+	margin-bottom: 18px;
+	margin-left: -5px;
+	letter-spacing: 2px;
+}
+.areaInfomation .boxNarrow .narrowTitle:after{
+	content:"";
+	position: absolute;
+	background:#F77E13;
+	width: 5px;
+	height: 50px;
+	left: -20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.areaInfomation .boxNarrow .narrowSearch{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+
+.areaInfomation .boxNarrow .narrowSearch .rowSearch{
+	width: 348px;
+
+}
+.areaInfomation .boxNarrow .narrowSearch .rowSearch select{
+	width: 100%;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    color: #AAAAAA;
+    padding: 10px 17px 12px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #fff url(../images/joseikin/arrow-down.svg) no-repeat right 10px center;
+}
+
+/*ie*/
+.areaInfomation .boxNarrow .narrowSearch .rowSearch select::-ms-expand {
+    display: none;
+}
+
+.areaInfomation .boxNarrow .boxaction {
+	text-align: right;
+}
+
+.areaInfomation .boxNarrow .boxaction .clear{
+	width: 140px;
+	display: inline-block;
+	vertical-align: middle;
+
+
+}
+.areaInfomation .boxNarrow .boxaction .clear input{
+	width: 100%;
+	font-size: 16px;
+	color: #F77E13;	
+	border: 2px solid #F77E13;
+	border-radius: 35px;
+	background: #fff;
+	padding: 3px 0 4px;
+	transition: all 0.3s;
+
+}
+.areaInfomation .boxNarrow .boxaction .find{
+	width: 140px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 7px;
+}
+.areaInfomation .boxNarrow .boxaction .find input{
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+	background: #F77E13;	
+	border: 2px solid #F77E13;
+	padding: 3px 0 4px;
+	border-radius: 35px;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+
+.areaInfomation .listInfo {
+	padding-right: 12px;
+	margin-bottom: 20px;
+}
+.areaInfomation .listInfo li{
+	border-top: 1px dotted #707070;
+	padding: 15px 0 20px;
+}
+.areaInfomation .listInfo li:last-child{
+	border-bottom: 1px dotted #707070;
+}
+
+.areaInfomation .listInfo li .cateInfo{
+	margin-bottom: 8px;
+}
+.areaInfomation .listInfo li .cateInfo .region{
+	width: 69px;
+	display: inline-block;
+}
+.areaInfomation .listInfo li .cateInfo .region a{
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid #FF9300;
+	color: #FF9300;
+}
+.areaInfomation .listInfo li .cateInfo .region+.region{
+	margin-left: 5px;
+}
+.areaInfomation .listInfo li .cateInfo .date{
+	display: inline-block;
+	margin-left: 12px;
+}
+.areaInfomation .listInfo li .infoTitleNews{
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.areaInfomation .listInfo li .infoIntro{
+	margin-bottom: 22px;
+	line-height: 1.4;
+}
+.areaInfomation .listInfo li .boxDetail{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.areaInfomation .listInfo li .boxDetail .maxPrice{
+	width: 266px;
+	border: 1px solid #F77E13;
+	color:#F77E13; 
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0 3px;
+
+}
+.areaInfomation .listInfo li .boxDetail .maxPrice .max{
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 17px;
+	vertical-align: 3px;
+}
+
+.areaInfomation .listInfo li .boxDetail .maxPrice .price{
+	
+}
+.areaInfomation .listInfo li .boxDetail .btnDetail{
+	width: 210px;
+}
+.areaInfomation .listInfo li .boxDetail .btnDetail a{
+	text-align: center;
+	display: block;
+	background: #F77E13;
+	border: 2px solid #F77E13;
+	border-radius: 35px;
+	transition: all 0.3s;
+
+}
+.areaInfomation .listInfo li .boxDetail .btnDetail a span{
+	position: relative;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px 0 7px;
+	padding-left: 27px;
+	background: url(../images/joseikin/arrow-info.svg) no-repeat left top 9px;
+	letter-spacing: 2px;
+}
+
+.areaInfomation .pagingNav{
+	text-align: center;
+	margin-bottom: 68px;
+}
+
+.areaInfomation .pagingNav .navList{
+	
+}
+.areaInfomation .pagingNav .navList li{
+	display: inline-block;
+	margin: 0px 3.4px;
+}
+
+.areaInfomation .pagingNav .navList li a{
+	font-size: 14px;
+	border: 1px solid #707070;
+	width: 30px;
+	height: 30px;
+	padding: 3px 0;
+	display: block;
+	border-radius: 50px;
+	text-align: center;
+	transition: all 0.3s;
+}
+.areaInfomation .pagingNav .navList li.active a{
+	background: #F77E13;
+	color: #fff;
+	border: 1px solid #F77E13;
+}
+
+
+.areaInfomation .searchMap{
+	background: #FFF8EF;
+	padding-top: 13px;
+	text-align: center;
+	margin-right: 10px;
+	padding-bottom: 48px;
+}
+
+.areaInfomation .searchMap .searchMapTitle{
+	font-size: 18px;
+    font-weight: normal;
+    color: #333333;
+    position: relative;
+    padding-left: 20px;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+.areaInfomation .searchMap .searchMapTitle:after{
+	content: "";
+    position: absolute;
+    background: #F77E13;
+    width: 5px;
+    height: 50px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.areaInfomation .searchMap .boxMap{
+	position: relative;
+}
+.areaInfomation .searchMap .boxMap .map{
+	margin-left: 67px;
+}
+.areaInfomation .searchMap .boxMap .listRegion{
+	
+}
+.areaInfomation .searchMap .boxMap .listRegion li{
+	width: 150px;
+}
+.areaInfomation .searchMap .boxMap .listRegion li a{
+	display: block;
+	width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F77E13;
+    background: #fff;
+    border: 1px solid #F77E13;
+    padding: 6.5px 0 7.5px;
+    border-radius: 35px;
+    transition: all 0.3s;
+}
+
+.areaInfomation .searchMap .boxMap .listRegion li a:hover{
+	color: #fff;
+	background: #F77E13;
+}
+.areaInfomation .searchMap .boxMap .listRegion li:nth-child(1){
+	position: absolute;
+    top: 10.5%;
+    left: 16.8%;
+}
+.areaInfomation .searchMap .boxMap .listRegion li:nth-child(2){
+	position: absolute;
+	top: 28.6%;
+	right: 7.9%;
+}
+.areaInfomation .searchMap .boxMap .listRegion li:nth-child(3){
+	position: absolute;
+	top: 41.5%;
+	left: 32.8%;
+}
+.areaInfomation .searchMap .boxMap .listRegion li:nth-child(4){
+	position: absolute;
+	top: 53.8%;
+	left: 18.9%;
+}
+.areaInfomation .searchMap .boxMap .listRegion li:nth-child(5){
+	position: absolute;
+	top: 56.1%;
+	right: 13.2%;
+}
+.areaInfomation .searchMap .boxMap .listRegion li:nth-child(6){
+	position: absolute;
+	top: 72.5%;
+	right: 23.2%;
+}
+.areaInfomation .searchMap .boxMap .listRegion li:nth-child(7){
+	position: absolute;
+	top: 84.7%;
+	left: 4.9%;
+}
+.areaInfomation .searchMap .boxMap .listRegion li:nth-child(8){
+	position: absolute;
+	top: 84.9%;
+	right: 41.3%;
+}
+
+
+@media(max-width: 1265px) and (min-width: 986px){
+	.wrapContent .contentLetf{
+		width: 63.4%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li{
+		width: 20%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li a{
+		font-size: 1.3vw;
+	}
+	.areaInfomation .searchMap .boxMap .map{
+		margin-left: 11%;
+	}
+	.areaInfomation .boxNarrow .narrowSearch .rowSearch{
+		width: 49.1%;
+	}
+
+
+	.wrapContent .sideBar{
+		width: 32.5%;	
+	}
+}
+
+@media(max-width: 1165px) and (min-width: 769px){
+
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(1){
+	    left: 14.8%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(2){
+
+		right: 5.9%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(3){
+
+		left: 30.8%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(4){
+
+		left: 14.9%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(5){
+
+		right: 10.2%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(6){
+
+		right: 22.2%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(7){
+
+		left: 1.9%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(8){
+
+		right: 39.3%;
+	}
+
+}
+
+@media(max-width: 985px) and (min-width: 769px){
+	.wrapContent .contentLetf{
+		width: 100%;
+	}
+	.wrapContent .sideBar{
+		width: 100%;	
+	}
+	.areaInfomation .boxNarrow .narrowSearch .rowSearch{
+		width: 48%;
+	}
+	.areaInfomation .searchMap .boxMap .map{
+		margin-left: 11%;
+	}
+
+}
+
+@media(min-width: 769px){
+	.areaInfomation .boxNarrow .boxaction .clear input:hover{
+		background: #F77E13;
+		color: #fff;
+
+	}
+	.areaInfomation .boxNarrow .boxaction .find input:hover{
+		background: #fff;
+		color: #F77E13;
+	}
+	.areaInfomation .listInfo li .boxDetail .btnDetail a:hover{
+		background: #fff;
+	}
+	.areaInfomation .listInfo li .boxDetail .btnDetail a:hover span{
+		color: #F77E13;
+		background: url(../images/joseikin/arrow-info-hover.svg) no-repeat left top 10px;
+	}
+	.areaInfomation .pagingNav .navList li a:hover{
+		color: #F77E13;
+		border: 1px solid #F77E13;
+	}
+	.areaInfomation .pagingNav .navList li.active a:hover{
+		background: #F77E13;
+		color: #fff;
+		border: 1px solid #F77E13;
+	}
+	.wrapContent .sideBar .boxRegion .regionBox .listregion li a:hover span{
+		background: url(../images/joseikin/play-arrow.svg) no-repeat left 3px top 8px;
+	}
+}
+
+
+@media(max-width: 768px){
+	/*gen info*/
+	#main .mainTitle{
+		padding-left: 40px;
+	}
+	#main .mainTitle:after{
+		width: 28px;
+		height: 28px;
+	}
+	/*gen info*/
+	.areaInfomation .boxNarrow .narrowTitle{
+		margin-left: 1px;
+		font-size: 16px;
+	}
+	.areaInfomation .boxNarrow{
+		padding: 25px 20px 30px 20px;
+	}
+	.wrapContent .contentLetf{
+		width: 100%;
+	}
+	.areaInfomation .boxNarrow .narrowSearch .rowSearch{
+		width: 49.1%;
+	}
+	.areaInfomation .boxNarrow .narrowSearch .rowSearch select{
+		padding: 10px 10px 12px;
+	}
+	.areaInfomation .boxNarrow .boxaction .clear{
+		width: 120px;
+	}
+	.areaInfomation .boxNarrow .boxaction .find{
+		width: 120px;
+	}
+	.areaInfomation .listInfo li .cateInfo .region{
+		margin-bottom: 5px;
+	}
+	.areaInfomation .listInfo li .boxDetail .maxPrice{
+		width: 55.8%;
+		max-width: 220px;
+		font-size: 16px;
+		padding: 3px 0 5px;
+	}
+	.areaInfomation .listInfo li .boxDetail .maxPrice .max{
+		font-size: 12px;
+		vertical-align: 0;
+		margin-right: 10px;
+	}
+
+	.areaInfomation .listInfo li .boxDetail .btnDetail{
+		width: 130px;
+	}
+	.areaInfomation .listInfo li .boxDetail .btnDetail a span {
+		background: url(../images/joseikin/arrow-info.svg) no-repeat left top 9px;
+		background-size: 15px 14px;
+		padding-left: 20px;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	.areaInfomation .pagingNav .navList li {
+		margin: 0 0.8%;
+	}
+
+	.areaInfomation .searchMap{
+		margin: 0 0 50px 0;
+	}
+	.areaInfomation .searchMap .boxMap .map{
+		margin: 0 0% 0 11%;
+	}
+	.areaInfomation .searchMap .boxMap .map img{
+		width: 77%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li {
+		width: 23.2%;
+		max-width: 100px;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li a {
+		font-size: 10px;
+		padding: 4.5px 0 6.5px;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(1){
+		left: 11.9%;
+	}
+
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(2){
+		right: 3.9%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(3){
+		top: 39.5%;
+		left: 28.8%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(4){
+		left: 11.9%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(5){
+		right: 7.2%;
+	}
+	.areaInfomation .searchMap .boxMap .listRegion li:nth-child(7){
+		left: 0;
+	}
+	.wrapContent .sideBar{
+		width: 100%;
+		margin-top: 0;
+	}
+	.wrapContent .sideBar .boxRegion .regionTitle{
+		font-size: 16px;
+	}
+	.wrapContent .sideBar .boxRegion .regionBox .listregionTitle{
+		font-size: 18px;
+	}
+	.wrapContent .sideBar .boxRegion .regionBox{
+		padding: 15px 0 5px 20px;
+	}
+	.wrapContent .sideBar .boxRegion .regionBox .listregion li span{
+		background: url(../images/joseikin/play-arrow.svg) no-repeat left top 5px;
+	}
+	.wrapContent .sideBar .boxRegion .regionBox .listregion li a {
+		font-size: 14px;
+	}
+}

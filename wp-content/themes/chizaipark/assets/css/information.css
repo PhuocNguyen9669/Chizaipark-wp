@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* INFORMATION STYLE
+*
+***************************************************************************/
+
+
+/*CONTENT*/
+
+.titleInformation{
+	font-size: 18px;
+	letter-spacing: 1.7px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 14px;
+}
+.textInformation{
+	font-size: 14px;
+	line-height: 1.75;
+	letter-spacing: 1.4px;
+}
+
+/*areaIntellectual*/
+.areaIntellectual{
+	margin-bottom: 49px;
+}
+.areaIntellectual .areaTitle{
+	margin-bottom: 27px;
+}
+.areaIntellectual .textIntellectual{
+    font-size: 14px;
+    line-height: 2.2;
+    letter-spacing: 1.4px;
+}
+
+/*areaFeatures*/
+.areaFeatures{
+	background: #FFF8EF;
+	padding: 49px 0 60px;
+    margin-bottom: 49px;
+}
+.areaFeatures .areaTitle{
+	margin-bottom: 43px;
+}	
+.areaFeatures .boxFeatures{
+	display: flex;
+	flex-wrap: wrap;
+}
+.areaFeatures .boxFeatures li{
+	width: calc(100% / 3 - 20px);
+	margin-right: 30px;
+}
+.areaFeatures .boxFeatures li:nth-child(3n){
+	margin-right: 0;
+}
+.areaFeatures .boxFeatures li .imageFeatures{
+	width: 100%;
+	margin-bottom: 22px;
+}
+.areaFeatures .boxFeatures li .imageFeatures img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/*areaIntroduction*/
+
+.areaIntroduction{
+	margin-bottom: 58px;
+}
+.areaIntroduction .areaTitle{
+	margin-bottom: 64px;
+}
+.areaIntroduction .boxIntroduction{
+	display: flex;
+	flex-wrap: wrap;
+}
+.areaIntroduction .boxIntroduction li{
+	width: calc(100% / 3 - 20px);
+	margin-right: 30px;
+	margin-bottom: 37px;
+}
+.areaIntroduction .boxIntroduction li:nth-child(3n){
+	margin-right: 0;
+}
+.areaIntroduction .boxIntroduction li .iconIntroduction{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+
+@media (max-width: 768px){
+	
+	.titleInformation{
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+	.textInformation{
+		font-size: 12px;
+	}
+
+	/*areaIntellectual*/
+	.areaIntellectual {
+	    margin-bottom: 50px;
+	}
+	.areaIntellectual .areaTitle{
+		margin-bottom: 30px;
+	}
+	.areaIntellectual .textIntellectual {
+		font-size: 12px;
+		line-height: 2;
+		letter-spacing: 0px;
+	}
+
+	/*areaFeatures*/
+	.areaFeatures{
+		padding: 40px 0;
+		margin-bottom: 35px;
+	}
+	.areaFeatures .areaTitle{
+		margin-bottom: 30px;
+	}
+	.areaFeatures .boxFeatures{
+		flex-direction: column;
+	}
+	.areaFeatures .boxFeatures li{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 40px;
+	}
+	.areaFeatures .boxFeatures li .imageFeatures{
+		margin-bottom: 15px;
+	}
+
+	/*areaIntroduction*/
+	.areaIntroduction{
+		margin-bottom: 30px;
+	}
+	.areaIntroduction .areaTitle{
+		margin-bottom: 45px;
+	}
+	.areaIntroduction .boxIntroduction li{
+		width: calc(100% / 2 - 8px);
+		margin-right: 10px;
+	}
+	.areaIntroduction .boxIntroduction li:nth-child(3n){
+		margin-right: 10px;
+	}
+	.areaIntroduction .boxIntroduction li:nth-child(2n){
+		margin-right: 0;
+	}
+
+}

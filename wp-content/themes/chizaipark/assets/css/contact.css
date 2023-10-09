@@ -1,0 +1,600 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* REGISTER STYLE
+*
+***************************************************************************/
+#fixH {
+	height: 153px !important;
+}
+
+.formItem.formSubmit p {
+    width: 100%;
+}
+
+#main .mainTitle {
+    position: relative;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0px);
+} 
+#main .mainTitle:before {
+	content: '';
+    display: inline-block;
+    vertical-align: -5px;
+    width: 47px;
+    height: 35px;
+    background: url(../images/contact/icon-mail.svg) no-repeat center center/100%;
+    margin-right: 17px;
+}
+.header img, .footer img {
+	width: 100%;
+}
+#breadcrumbs {
+    padding: 23px 0 15px;
+}
+/*areaContact*/
+.areaContact .contactStep {
+	text-align: center;
+	margin-left: -22px;
+	margin-bottom: 28px;
+}
+.areaContact .contactStep li {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 145px;
+	font-size: 12px;
+	color: #F77E13;
+	padding: 12px 0;
+	margin-right: -10.5px;
+}
+.areaContact .contactStep li.active {
+	color: #fff;
+	border-radius: 4px 0 0 4px;
+}
+.areaContact .contactStep li.step1 {
+	background: url(../images/register/register-step-01.png) no-repeat center center/100%;
+}
+.areaContact .contactStep li.step1.active {
+	background: url(../images/register/register-step-01-actived.png) no-repeat center center/100%;
+}
+.areaContact .contactStep li.step2 {
+	background: url(../images/register/register-step-02.png) no-repeat center center/100%;
+	width: 146.2px;
+}
+.areaContact .contactStep li.step2.active {
+	background: url(../images/register/register-step-02-actived.png) no-repeat center center/100%;
+}
+.areaContact .contactStep li.step3 {
+	background: url(../images/register/register-step-03.png) no-repeat center center/100%;
+	width: 155px;
+}
+.areaContact .contactStep li.step3.active {
+	background: url(../images/register/register-step-03-actived.png) no-repeat center center/100%;
+}
+.areaContact .contactTable {
+	max-width: 777px;
+	width: 100%;
+	height: 93px;
+	border: 1px solid #707070;
+	margin: 0 auto 21px;
+}
+.areaContact .contactTitle {
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 27px;
+}
+
+.areaContact .formContact {
+	max-width: 716px;
+	margin: 0 auto;
+}
+.areaContact .formContact .formItem {
+	display: flex;
+	border-top: 1.5px dotted rgba(112,112,112,0.5);
+	padding: 20px 0 17px;
+}
+.areaContact .formContact .formItem:first-child {
+	padding: 19px 0 17px;
+}
+
+.areaContact .formContact .formItem .formName {
+	width: 259px;
+	padding-left: 16px;
+	margin-top: 11px;
+}
+.areaContact .formContact .formItem .formName .require {
+	display: inline-block;
+	vertical-align: 1px;
+	width: 40px;
+	height: 14px;
+	font-size: 10px;
+	color: #fff;
+	background: #E23030;
+	border-radius: 12px;
+	text-align: center;
+	margin-left: 4px;
+}
+.areaContact .formContact .formItem .formInput {
+	width: 400px;
+} 
+.areaContact .formContact .formItem .formInput .reInput {
+	margin: 4px 0 1px;
+}
+.areaContact .formContact .formItem .formInput .inputStyle {
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	appearance:         none;
+	border-radius: 3px;
+	border: 1px solid #707070;
+	width: 100%;
+	height: 40px;
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 10px;
+}
+.areaContact .formContact .formItem .formInput .selectStyle {
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	appearance:         none;
+	border-radius: 3px;
+	border: 1px solid #707070;
+	width: 100%;
+	height: 40px;
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 10px;
+	background: url(../images/contact/icon-select.svg) no-repeat right 10px center/14px;
+	color: #A8A8A8;
+}
+.areaContact .formContact .formItem .formInput .areaStyle {
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	appearance:         none;
+	border-radius: 3px;
+	border: 1px solid #707070;
+	width: 100%;
+	height: 196px;
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 10px;
+	resize: none;
+}
+.areaContact .formContact .formItem .formInput .inputNote {
+	font-size: 12px;
+	color: #AAAAAA;
+	margin-top: 7px;
+	margin-left: 1px;
+}
+
+.areaContact .formContact .formItem .formInput .radioWrap {
+	margin: 10px 0 19px;
+}
+
+.wpcf7-list-item {
+	margin: 0;
+}
+/*CUSTOM RADIO BUTTON*/
+.areaContact .formContact .formItem .formInput .radioButton {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin-right: 37px;
+	font-weight: bold;
+}
+.areaContact .formContact .formItem .formInput .radioButton.disagree {
+	font-weight: normal;
+}
+.areaContact .formContact .formItem .formInput .radioButton .radioStyle {
+	position: absolute;
+	opacity: 0;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.areaContact .formContact .formItem .formInput .radioButton .labelStyle {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 0;
+	top: 2px;
+}
+/* .areaContact .formContact .formItem .formInput .radioButton .labelStyle:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 15px;
+	height: 15px;
+	background: #fff; 
+	border-radius: 50%;
+	border: 1px solid #939393;
+} */
+/* .areaContact .formContact .formItem .formInput .radioButton .labelStyle:after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: calc(50%);
+	transform: translate(-50%, -50%);
+	width: 9.5px;
+	height: 9.5px;
+	background: #939393;
+	border-radius: 50%;
+	opacity: 0;
+	transition: all 150ms linear;
+} */
+.wpcf7-box-spinner p {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+
+.wpcf7-box-spinner {
+    text-align: center;
+	margin-top: -15px;
+}
+
+span.wpcf7-list-item.first label {
+    margin-right: 30px;
+}
+
+#mCSB_1 {
+    font-size: 12px;
+}
+
+.areaContact .formContact .formItem .formInput .radioButton .radioStyle:checked ~ .labelStyle:after {
+	opacity: 1;
+}
+/*CUSTOM RADIO BUTTON*/
+
+.areaContact .formContact .formItem .formInput .privacy {
+	border-radius: 3px;
+	border: 1px solid #707070;
+	border-right: 0;
+	width: 100%;
+	height: 97px;
+	padding: 0 0 0 8px;
+	margin-bottom: 19px;
+	overflow-y: auto;
+}
+.areaContact .formContact .formItem .formInput .privacy p {
+	font-size: 12px;
+	padding: 12px 0;
+}
+
+.areaContact .formContact .formItem .formInput .privacy  .mCSB_scrollTools {
+	width: 13px;
+	right: 0;
+	top: 0;
+	border: 1px solid #707070;
+	border-radius: 3px;
+}
+.areaContact .formContact .formItem .formInput .privacy .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 6px;
+	height: 17px;
+	border-radius: 3px;
+	background: #C1C1C1;
+}
+.areaContact .formContact .formItem .formInput .privacy .mCSB_scrollTools .mCSB_dragger {
+	height: auto;
+}
+.areaContact .formContact .formItem .formInput .privacy .mCSB_scrollTools .mCSB_draggerRail {
+	width: 1px;
+	height: 88%;
+	border-radius: 0;
+	background: #fff;
+}
+.mCSB_inside > .mCSB_container {
+	margin-right: 13px;
+}
+.areaContact .formContact .formItem.formSubmit {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0;
+	padding-top: 40px;
+}
+
+.areaContact .formContact .formItem .submitStyles {
+    border-radius: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 48%;
+    height: 50px;
+    background: #fff;
+    border: 2px solid #F77E13;
+    color: #F77E13;
+    font-weight: normal;
+    transition: all 250ms linear;
+}
+
+.areaContact .formContact .formItem .submitStyle {
+	border-radius: 30px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Noto Sans JP', sans-serif;
+	max-width: 100%;
+	width: 48%;
+	height: 50px;
+	background: #fff;
+	border: 2px solid #F77E13;
+	color: #F77E13;
+	font-weight: normal;
+	transition: all 250ms linear;
+}
+
+.areaContact .formContact .formItem .formName.select {
+    margin-top: -10px;
+}
+
+.areaContact .formContact .formItem .submitStyles.check {
+	background: #F77E13;
+	color: #fff;
+	font-weight: bold;
+}
+.areaContact .formContact .formItem .submitStyles.check,
+.areaContact .formContact .formItem .submitStyle.check {
+	background: #F77E13;
+	color: #fff;
+	font-weight: bold;
+}
+.areaContact .formContact .formItem .submitStyle:hover {
+	opacity: 0.8;
+}
+.areaContact {
+	padding-bottom: 38px;
+}
+
+
+.areaContact.Step2 .formContact .formItem .formName {
+	width: 192px;
+	margin-top: 0;
+}
+.areaContact.Step2 .formContact .formItem {
+    padding: 30px 0 45px;
+}
+.areaContact.Step2 .formContact .formItem:first-child {
+    padding: 29px 0 50px;
+}
+.areaContact.Step2 .formContact .formItem .formText.password {
+	font-size: 18px;
+	color: rgba(51,51,51,0.8);
+	font-weight: normal;
+	margin-top: -2px;
+	letter-spacing: -0.5px;
+}
+.areaContact.Step2 .formContact .formItem.formSubmit {
+	padding: 65px 0 16px;
+}
+
+.areaContact .formFinish {
+	background: #FFF8EF;
+	border-radius: 10px;
+	padding: 36px 65px;
+	margin-bottom: 74px;
+}
+.areaContact.Step3 .contactStep {
+	margin-bottom: 24px;
+}
+.areaContact .formFinish .finishTitle {
+	font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+.areaContact .formFinish .iconFinish {
+	text-align: center;
+	padding-right: 24px;
+	margin-bottom: 26px;
+}
+.areaContact .formFinish .mailFinish {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 56px;
+}
+
+.areaContact .formFinish .contentFinish .finishText {
+	line-height: 1.45;
+	margin-bottom: 20px;
+}
+.areaContact .formFinish .contentFinish .finishText a {
+	color: #333333;
+}
+.areaContact .formFinish .contentFinish .finishText.mb {
+	margin-bottom: 86px;
+}
+.areaContact .formFinish .contentFinish .finishList {
+	margin-bottom: 55px;
+}
+.areaContact .formFinish .contentFinish .finishList li {
+	line-height: 1.45;
+	padding-left: 14px;
+	text-indent: -14px;
+}
+.areaContact .formFinish .contentFinish .finishList li a {
+	color: #333;
+}
+.areaContact .formFinish .contentFinish .finishText a:hover,
+.areaContact .formFinish .contentFinish .finishList li a:hover {
+	text-decoration: underline;
+}
+.areaContact .formFinish .contentFinish .toTopPage {
+	text-align: center;
+	padding-right: 8px;
+}
+.areaContact .formFinish .contentFinish .toTopPage a {
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	color: #F77E13;
+	border-bottom: 1px solid #F77E13;
+	line-height: 1.1;
+}
+.areaContact .formFinish .contentFinish .toTopPage a:hover {
+	border-bottom: 1px solid transparent;
+}
+.areaContact .formFinish .contentFinish .toTopPage a:before {
+	content: '';
+	position: absolute;
+	width: 9.7px;
+	height: 16px;
+	top: 50%;
+	left: -20px;
+	transform: translateY(-50%);
+	background: url(../images/register/icon-arrow.svg) no-repeat center center/100%;
+}
+
+.radioButton p label {
+    margin-right: 25px;
+}
+
+span.wpcf7-list-item-label {
+    margin-left: 10px;
+}
+
+/*IE FIX*/
+@media all and (-ms-high-contrast:none) {
+	.areaContact .formContact .formItem .formInput .radioButton .labelStyle {
+		top: 3px;
+	}
+	.areaContact .contactStep li {
+		padding: 12px 0 11px;
+	}
+	.areaContact .formContact .formItem .formName .require {
+		vertical-align: 1px;
+		padding-top: 4px;
+	}
+}
+
+/*SP STYLE*/
+@media (max-width: 768px) {
+	.header, .footer {
+		display: none;
+	}
+	#breadcrumb .breadcrumb {
+		padding-top: 5px;
+	}
+	#breadcrumb .breadcrumb li {
+		display: inline;
+	}
+
+	.areaContact .contactStep {
+	    margin-left: 0;
+	    margin-bottom: 10px;
+	}
+	.areaContact .contactStep li {
+		width: 100px;
+		padding: 5px 0;
+		margin-right: -5px;
+	}
+	.areaContact .contactStep li.step2 {
+		width: 100.2px;
+	}
+	.areaContact .contactStep li.step3 {
+		width: 107px;
+	}
+
+	.areaContact .contactTitle {
+	    font-size: 14px;
+	    margin-bottom: 20px;
+	    letter-spacing: -1.5px;
+	}
+	.areaContact .formContact .formItem {
+		flex-direction: column;
+		padding: 10px 0;
+	}
+	.areaContact .formContact .formItem:first-child {
+		padding: 10px 0;
+	}
+	.areaContact .formContact .formItem .formName {
+		width: 100%;
+		padding-left: 0;
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+	.areaContact .formContact .formItem .formName .require {
+		height: 15px;
+	}
+	.areaContact .formContact .formItem .formInput {
+		width: 100%;
+		word-break: break-all;
+	}
+	.areaContact .formContact .formItem .formInput .inputStyle {
+		height: 30px;
+	}
+	.areaContact .formContact .formItem .formInput .inputNote {
+		margin-top: 5px;
+		margin-left: 0;
+	}
+	.areaContact .formContact .formItem.formSubmit {
+		padding-top: 15px;
+		flex-direction: row;
+	}
+	.areaContact .formContact .formItem .submitStyle {
+		font-size: 14px;
+		height: 40px;
+	}
+	.areaContact .formContact .formItem .formInput .radioWrap {
+		margin: 0 0 10px;
+	}
+
+	.areaContact.Step2 .formContact .formItem:first-child,
+	.areaContact.Step2 .formContact .formItem {
+		padding: 10px 0;
+	}
+	.areaContact.Step2 .formContact .formItem.formSubmit {
+		padding: 20px 0 10px;
+	}
+
+	.areaContact .formFinish {
+		padding: 30px 4%;
+	}
+	.areaContact .formFinish .finishTitle {
+	    font-size: 16px;
+	    margin-bottom: 15px;
+	}
+	.areaContact .formFinish .iconFinish {
+	    padding-right: 0;
+	    margin-bottom: 10px;
+	}
+	.areaContact .formFinish .mailFinish {
+	    font-size: 16px;
+	    margin-bottom: 20px;
+	}
+	.areaContact .formFinish .contentFinish .finishText.mb {
+	    margin-bottom: 40px;
+	}
+}	
+
+/*5S STYLE*/
+@media (max-width: 320px) {
+	.areaContact .contactStep li {
+		font-size: 11px;
+	}
+	.areaContact .contactStep li.step1 {
+		width: 90px;
+	}
+	.areaContact .contactStep li.step2 {
+		width: 90.2px;
+	}
+	.areaContact .contactStep li.step3 {
+		width: 97px;
+	}
+}

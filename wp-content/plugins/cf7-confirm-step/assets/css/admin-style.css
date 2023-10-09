@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* ADMIN STYLE
+*
+***************************************************************************/
+
+#cf7cfstep-panel input[type="checkbox"].custom_css_checkbox{
+	position: absolute;
+    margin: 8px 0 0 16px;
+}
+
+#cf7cfstep-panel input[type="checkbox"].custom_css_checkbox + span{
+	position: relative;
+    padding: 5px 0 0 50px;
+    line-height: 2.0em;
+}
+
+#cf7cfstep-panel input[type="checkbox"].custom_css_checkbox + span:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 28px;
+    border-radius: 16px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: right;
+    padding-right: 5px;
+}
+
+#cf7cfstep-panel input[type="checkbox"].custom_css_checkbox + span:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: 28px;
+    height: 28px;
+    border-radius: 16px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#cf7cfstep-panel input[type="checkbox"].custom_css_checkbox:checked + span:before {
+    background: #2271b1;
+}
+
+#cf7cfstep-panel input[type="checkbox"].custom_css_checkbox:checked + span:after {
+    margin-left: 27px;
+}
+
+#cf7cfstep-panel span.mailtag{
+    display: inline-block;
+    margin: 0 0 0 4px;
+    padding: 1px 2px;
+    cursor: pointer;
+    color: #000;
+}
+
+#cf7cfstep-panel span.mailtag.unused{
+	font-weight: bold;
+}
+
+#cf7cfstep-panel #tag-generator-list{
+	margin: 10px 0;
+	display: block;
+}

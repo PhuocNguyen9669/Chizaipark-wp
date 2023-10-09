@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* LOGIN STYLE
+*
+***************************************************************************/
+#breadcrumbs {
+    margin-bottom: 8px;
+}
+
+.areaLogin {
+    padding-bottom: 84px;
+}
+
+.areaLogin .loginTitle {
+    text-align: center;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 2px;
+    margin-bottom: 31px;
+}
+
+.areaLogin .boxForm {
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 27px;
+}
+
+.areaLogin .boxForm form input {
+    width: 100%;
+    font-size: 14px;
+    padding: 8.5px 13px;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    position: relative;
+    -webkit-appearance: none;
+    box-shadow: none;
+}
+
+.areaLogin .boxForm form input::placeholder {
+    font-size: 14px;
+    font-weight: 700;
+    color: #CCCCCC;
+    position: relative;
+    font-family: font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.iPhone .areaLogin .boxForm form input::placeholder {
+    top: 2px;
+}
+
+.areaLogin .boxForm form input:-ms-input-placeholder {
+    font-size: 14px;
+    font-weight: 700;
+    color: #CCCCCC;
+    position: relative;
+    font-family: font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.areaLogin .boxForm .mail {
+    margin-bottom: 15px;
+}
+
+.areaLogin .boxForm .password {
+    margin-bottom: 40px;
+}
+
+.areaLogin .boxForm .login {
+    margin-bottom: 15px;
+}
+
+.areaLogin .boxForm .login input {
+    background: #F77E13;
+    border: 2px solid #F77E13;
+    font-weight: 700;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 35px;
+    padding: 11px 0;
+    transition: all 0.3s;
+}
+
+.areaLogin .boxForm .forgotpass {
+    text-align: center;
+}
+
+.areaLogin .boxForm .forgotpass a {
+    color: #F77E13;
+    text-decoration: underline;
+}
+
+.areaLogin .boxForm .forgotpass a:hover {
+    text-decoration: none;
+}
+
+.areaLogin .boxregis {
+    width: 400px;
+    margin: 0 auto;
+    border-top: 1px dotted #707070;
+}
+
+.areaLogin .boxregis .boxregisWrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 0 50px 0;
+}
+
+.areaLogin .boxregis .boxregisWrap .first {
+    font-size: 14px;
+    color: #333333;
+    padding-left: 41px;
+}
+
+.areaLogin .boxregis .boxregisWrap .regisBtn {
+    width: 200px;
+}
+
+.areaLogin .boxregis .boxregisWrap .regisBtn a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #F77E13;
+    border: 2px solid #F77E13;
+    border-radius: 41px;
+    display: block;
+    padding: 11px 0;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.areaLogin .loginBy {
+    width: 400px;
+    margin: 0 auto;
+    border-top: 1px dotted #707070;
+}
+
+.areaLogin .loginBy .loginbyFg {
+    text-align: center;
+    margin-top: -11px;
+    margin-bottom: 29px;
+
+}
+
+.areaLogin .loginBy .loginbyFg span {
+    font-size: 14px;
+    color: #999999;
+    font-weight: normal;
+    display: inline-block;
+    padding: 0 20px;
+    background: #fff;
+}
+
+.areaLogin .loginBy .listBtninfo .face {
+    margin-bottom: 20px;
+}
+
+@media all and (-ms-high-contrast:none) {
+    .areaLogin .boxForm .login input {
+        padding: 13px 0 9px;
+    }
+
+    .areaLogin .boxForm .login input:hover {
+        padding: 13px 0 9px !important;
+    }
+}
+
+
+@media(min-width: 769px) {
+    .areaLogin .boxForm .login input:hover {
+        padding: 11px 0;
+        background: #fff;
+        color: #F77E13;
+    }
+
+    .areaLogin .boxregis .boxregisWrap .regisBtn a:hover {
+        background: #F77E13;
+        color: #fff;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .areaLogin .boxForm,
+    .areaLogin .boxregis,
+    .areaLogin .loginBy {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .areaLogin .boxForm .login input {
+        font-size: 14px;
+        padding: 2.5% 0;
+    }
+
+    .areaLogin .boxregis .boxregisWrap .regisBtn a {
+        font-size: 14px;
+        padding: 4.5% 0;
+    }
+
+    .areaLogin .boxregis .boxregisWrap .first {
+        padding-left: 2%;
+    }
+
+    .areaLogin .boxregis .boxregisWrap .regisBtn {
+        width: 53.6%;
+        max-width: 200px;
+    }
+
+    .areaLogin .boxForm form input {
+        font-size: 16px;
+        height: 40px;
+    }
+}

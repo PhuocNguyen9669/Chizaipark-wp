@@ -1,0 +1,425 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* CHIZAI STYLE
+*
+***************************************************************************/
+/*gen info*/
+#main .mainTitle{
+    padding-left: 70px;
+    position: relative;
+}
+#main .mainTitle:after{
+    content: "";
+    position: absolute;
+    background: url(../images/chizai/crow-title.svg) no-repeat;
+    background-size: 100%;
+    width: 53px;
+    height: 41px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*gen info*/
+
+#breadcrumbs{
+    margin-bottom: 19px;
+    padding: 7px 0 3px;
+
+}
+.areaDetail {
+
+}
+.areaDetail .blockDetail {
+    max-width: 1051px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 40px;
+}
+.areaDetail .blockDetail .detailTitle {
+    font-size: 18px;
+    word-break: break-all;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.areaDetail .blockDetail .boxContent {
+    border-top: 1.5px dotted rgba(112,112,112,0.5);
+    border-bottom: 1.5px dotted rgba(112,112,112,0.5);
+    margin-bottom: 24px;
+} 
+.areaDetail .blockDetail .boxContent .boxName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0 0;
+    margin-bottom: 46px;
+}
+.areaDetail .blockDetail .boxContent .boxName .category {
+    min-width: 90px;
+    font-size: 12px;
+    color: #FF9300;
+    border: 1px solid #FF9300;
+    text-align: center;
+}
+.areaDetail .blockDetail .boxContent .boxName .social {
+    display: flex;
+    margin-right: 2px;
+}
+.areaDetail .blockDetail .boxContent .boxName .social li {
+    margin-left: 10px;
+}
+.areaDetail .blockDetail .boxContent .boxCompany {
+    background: #FFF8EF;
+    border-radius: 10px;
+    padding: 15px 33px 33px 31px;
+    margin-bottom: 43px;
+} 
+.areaDetail .blockDetail .boxContent .boxCompany .companyTitle {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.areaDetail .blockDetail .boxContent .boxCompany .companyWrap {
+    display: flex;
+    justify-content: space-between;
+}
+.areaDetail .blockDetail .boxContent .boxCompany .companyWrap .companyPhoto {
+    width: 306px;
+}
+.areaDetail .blockDetail .boxContent .boxCompany .companyWrap .companyContent {
+    width: 612px;
+    margin-top: -1px;
+    margin-left: 30px;
+}
+.areaDetail .blockDetail .boxContent .boxCompany .companyWrap .companyContent .companyText {
+    word-break: break-all;
+    line-height: 1.45;
+    margin-bottom: 32px;
+}
+.areaDetail .blockDetail .boxContent .boxCompany .companyWrap .companyContent .companyLink {
+    text-align: right;
+    margin-right: 12px;
+}
+.areaDetail .blockDetail .boxContent .boxCompany .companyWrap .companyContent .companyLink a {
+    display: inline-block;
+    width: 200px;
+    color: #fff;
+    background: #313131;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #313131;
+    padding: 3px 0 4px;
+    transition: all 250ms linear;
+}
+.areaDetail .blockDetail .boxContent .boxCompany .companyWrap .companyContent .companyLink a:hover {
+    color: #313131;
+    background: #fff;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent {
+
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .fieldTitle {
+    position: relative;
+    font-size: 18px;
+    padding: 0 26px;
+    margin-bottom: -1px;
+} 
+.areaDetail .blockDetail .boxContent .boxFieldContent .fieldTitle:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    background: url(../images/venture-capital/icon-circle.svg) no-repeat center center/100%;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField {
+    margin-bottom: 20px;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField.itemField2 {
+    margin-bottom: 99px;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField .fieldText {
+    word-break: break-all;
+    line-height: 1.45;
+    margin-bottom: 60px;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField .fieldPhoto {
+    width: 100%;
+    max-width: 599px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField .fieldWrap {
+    display: flex;
+    justify-content: space-between;
+} 
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField .fieldWrap .fieldText {
+    width: 505px;
+    margin-right: 30px;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField .fieldWrap .fieldPhoto {
+    max-width: 443px;
+    margin: 8px 2px 0;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField.rPhoto {
+    margin-bottom: 43px;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField.lPhoto {
+    margin-bottom: 35px;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField.lPhoto .fieldWrap {
+    flex-direction: row-reverse;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField.lPhoto .fieldWrap .fieldPhoto {
+    margin: 5px 0 0;
+}
+.areaDetail .blockDetail .boxContent .boxFieldContent .itemField.lPhoto .fieldWrap .fieldText {
+    margin-right: 2px;
+    margin-left: 30px;
+}
+
+.areaDetail .blockDetail .boxContent .boxTable {
+    background: #FFF8EF;
+    border-radius: 10px;
+    padding: 15px 20px 40px;
+    margin-bottom: 40px;
+}
+.areaDetail .blockDetail .boxContent .boxTable .tableTitle {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.areaDetail .blockDetail .boxContent .boxTable .tableSub {
+    line-height: 1.45;
+    margin-bottom: 28px;
+}
+.areaDetail .blockDetail .boxContent .boxTable .tableList {
+    width: 345px;
+    margin: 0 auto;
+} 
+.areaDetail .blockDetail .boxContent .boxTable .tableList li {
+    font-size: 16px;
+    color: #707070;
+    font-weight: bold;
+}
+
+.areaDetail .blockDetail .boxInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 97px;
+} 
+.areaDetail .blockDetail .boxInfo .colLeft {
+    position: relative;
+    margin-left: 4px;
+    padding-right: 131px;
+}
+.areaDetail .blockDetail .boxInfo .colLeft .infoName {
+    display: flex;
+    align-items: center;
+}
+.areaDetail .blockDetail .boxInfo .colLeft .infoName .name {
+    font-size: 18px;
+    line-height: 1.45;
+    letter-spacing: 2px;
+    margin-top: -8px;
+}
+.areaDetail .blockDetail .boxInfo .colLeft .infoName .name .big {
+    font-size: 20px;
+}
+.areaDetail .blockDetail .boxInfo .colLeft .infoName .name .small {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+.areaDetail .blockDetail .boxInfo .colLeft .infoName .avatar {
+    width: 78px;
+    margin-right: 21px;
+}
+.areaDetail .blockDetail .boxInfo .colLeft .linkInfo {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+.areaDetail .blockDetail .boxInfo .colLeft .linkInfo a {
+    display: inline-block;
+    width: 80px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #F77E13;
+    background: #F77E13;
+    border-radius: 12px;
+    text-align: center;
+    padding: 2px 0 3px;
+}
+.areaDetail .blockDetail .boxInfo .colRight {
+    margin-top: -3px;
+}
+.areaDetail .blockDetail .boxInfo .colRight .date {
+    text-align: right;
+    margin-right: 2px;
+    margin-bottom: 14px;
+}
+.areaDetail .blockDetail .boxInfo .colRight .social {
+    display: flex;
+    margin-right: 2px;
+}
+.areaDetail .blockDetail .boxInfo .colRight .social li {
+    margin-left: 10px;
+}
+
+/*SP STYLE*/
+@media (max-width: 768px) {
+    .areaDetail .blockDetail {
+        padding-right: 0;
+    }
+    .areaDetail .blockDetail .detailTitle {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .areaDetail .blockDetail .boxContent .boxName {
+        padding: 14px 0 0;
+        margin-bottom: 24px;
+    }
+    .areaDetail .blockDetail .boxContent .boxName .nameCompany {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .areaDetail .blockDetail .boxContent .boxName .social {
+        margin-right: 0;
+    }
+    .areaDetail .blockDetail .boxContent .boxName .social li {
+        width: 35px;
+        margin-left: 5px;
+    }
+    .areaDetail .blockDetail .boxContent .boxCompany {
+        padding: 15px 4% 20px;
+        margin-bottom: 30px;
+    }
+    .areaDetail .blockDetail .boxContent .boxCompany .companyTitle {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .areaDetail .blockDetail .boxContent .boxCompany .companyWrap {
+        flex-direction: column;
+    }
+    .areaDetail .blockDetail .boxContent .boxCompany .companyWrap .companyPhoto {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .areaDetail .blockDetail .boxContent .boxCompany .companyWrap .companyContent {
+        width: 100%;
+        margin: 0;
+    }
+    .areaDetail .blockDetail .boxContent .boxCompany .companyWrap .companyContent .companyText {
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+    .areaDetail .blockDetail .boxContent .boxCompany .companyWrap .companyContent .companyLink {
+        margin-right: 0;
+    }
+    .areaDetail .blockDetail .boxContent .boxFieldContent .fieldTitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+        padding: 0 22px;
+    }
+    .areaDetail .blockDetail .boxContent .boxFieldContent .fieldTitle:before {
+        top: 4px;
+        width: 18px;
+        height: 18px;
+    }
+    .areaDetail .blockDetail .boxContent .boxFieldContent .itemField,
+    .areaDetail .blockDetail .boxContent .boxFieldContent .itemField.itemField2 {
+        margin-bottom: 30px;
+    }
+    .areaDetail .blockDetail .boxContent .boxFieldContent .itemField .fieldText {
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+    .areaDetail .blockDetail .boxContent .boxFieldContent .itemField .fieldWrap,
+    .areaDetail .blockDetail .boxContent .boxFieldContent .itemField.lPhoto .fieldWrap {
+        flex-direction: column;
+    }
+    .areaDetail .blockDetail .boxContent .boxFieldContent .itemField .fieldWrap .fieldText {
+        width: 100%;
+        margin-right: 0;
+    }
+    .areaDetail .blockDetail .boxContent .boxFieldContent .itemField .fieldWrap .fieldPhoto {
+        margin: 0;
+    }
+    .areaDetail .blockDetail .boxContent .boxFieldContent .itemField.lPhoto .fieldWrap .fieldText {
+        margin-left: 0;
+    }
+
+    .areaDetail .blockDetail .boxContent .boxTable {
+        padding: 15px 4%;
+        margin-bottom: 30px;
+    }
+    
+    .areaDetail .blockDetail .boxContent .boxTable .tableTitle {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .areaDetail .blockDetail .boxContent .boxTable .tableSub {
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    .areaDetail .blockDetail .boxContent .boxTable .tableList {
+        width: 95%;
+    }
+    .areaDetail .blockDetail .boxContent .boxTable .tableList li {
+        font-size: 14px;
+    }
+    .areaDetail .blockDetail .boxInfo {
+        flex-direction: column;
+        align-items: inherit;
+    }
+    .areaDetail .blockDetail .boxInfo .colLeft {
+        margin-left: 0;
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+    .areaDetail .blockDetail .boxInfo .colLeft .infoName .avatar {
+        width: 60px;
+        margin-right: 15px;
+    }
+    .areaDetail .blockDetail .boxInfo .colLeft .infoName .name {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .areaDetail .blockDetail .boxInfo .colLeft .infoName .name .big {
+        font-size: 16px;
+    }
+    .areaDetail .blockDetail .boxInfo .colLeft .infoName .name .small {
+        font-size: 12px;
+    }
+    .areaDetail .blockDetail .boxInfo .colLeft .linkInfo {
+        bottom: 10px;
+    }
+    .areaDetail .blockDetail .boxInfo .colLeft .linkInfo a {
+        width: 60px;
+        padding: 1px 0 2px;
+    }
+    .areaDetail .blockDetail .boxInfo .colRight {
+        margin-right: 0;
+    }
+    .areaDetail .blockDetail .boxInfo .colRight .date {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .areaDetail .blockDetail .boxInfo .colRight .social {
+        justify-content: center;
+        margin-right: 0;
+    }
+    .areaDetail .blockDetail .boxInfo .colRight .social li {
+        width: 35px;
+        margin: 0 2.5px;
+    }
+}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* FRONT STYLE
+*
+***************************************************************************/
+
+
+.wpcf7-response-output.cf7cfstep-hide,
+.cf7cfstep-input-step-wrap.cf7cfstep-hide,
+.cf7cfstep-confirm-step-wrap.cf7cfstep-hide {
+	display: none;
+}

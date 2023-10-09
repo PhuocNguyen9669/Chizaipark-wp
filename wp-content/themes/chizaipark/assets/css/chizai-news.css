@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* CHIZAI NEWS STYLE
+*
+***************************************************************************/
+/*gen info*/
+#main .mainTitle{
+    position: relative;
+    padding-left: 63px;
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+#main .mainTitle:after{
+    content: "";
+    position: absolute;
+    background: url(../images/chizai/icon-news.svg) no-repeat;
+    background-size: 100%;
+    width: 43px;
+    height: 41px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*gen info*/
+
+#breadcrumbs {
+    padding: 19px 0 10px;
+}
+/*AREAVENTURE*/
+.areaVenture {
+
+}
+.areaVenture .boxPost {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+}
+.areaVenture .boxPost .boxName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.areaVenture .boxPost .boxName .boxTitle {
+    position: relative;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+.areaVenture .boxPost .boxName .boxTitle:before {
+    content: '';
+    position: absolute;
+    top: 54%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 21px;
+    height: 20px;
+    background: url(../images/venture-capital/icon-venture.svg) no-repeat center center/100%;
+}
+.areaVenture .boxPost .boxName .boxCount {
+    letter-spacing: 1.5px;
+    margin-top: 4px;
+    margin-right: -3px;
+} 
+.areaVenture .boxPost .boxList {
+    margin-bottom: 30px;
+}
+.areaVenture .boxPost .boxList li {
+    border-top: 1.5px dotted rgba(112,112,112,0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 9px 19px 19px;
+}
+.areaVenture .boxPost .boxList li:last-child {
+    border-bottom: 1.5px dotted rgba(112,112,112,0.5);
+}
+.areaVenture .boxPost .boxList li + li {
+    padding: 17px 9px 23px 19px;
+}
+.areaVenture .boxPost .boxList li .datePost {
+    width: 253px;
+}
+.areaVenture .boxPost .boxList li .linkPost {
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 4px;
+    width: 1000px;
+} 
+.areaVenture .boxPost .boxList li .linkPost a {
+    color: #333333;
+}
+.areaVenture .boxPost .boxList li .linkPost a:hover {
+    opacity: 0.7;
+}
+
+.areaVenture .boxPost .pagingNav{
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.areaVenture .boxPost .pagingNav .navList{
+    
+}
+.areaVenture .boxPost .pagingNav .navList li{
+    display: inline-block;
+    margin: 0px 3.4px;
+}
+
+.areaVenture .boxPost .pagingNav .navList li a{
+    font-size: 14px;
+    border: 1px solid #707070;
+    width: 30px;
+    height: 30px;
+    padding: 3px 0;
+    display: block;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 0.3s;
+}
+.areaVenture .boxPost .pagingNav .navList li.active a{
+    background: #F77E13;
+    color: #fff;
+    border: 1px solid #F77E13;
+}
+/*AREAVENTURE*/
+
+/*ONLY PC*/
+@media(min-width: 769px){
+    .areaVenture .boxPost .pagingNav .navList li a:hover{
+        color: #F77E13;
+        border: 1px solid #F77E13;
+    }
+    .areaVenture .boxPost .pagingNav .navList li.active a:hover{
+        background: #F77E13;
+        color: #fff;
+        border: 1px solid #F77E13;
+    }
+}
+
+
+/*SP STYLE*/
+@media (max-width: 768px) {
+    .areaVenture .boxPost .boxName {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .areaVenture .boxPost .boxName .boxTitle {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .areaVenture .boxPost .boxName .boxCount {
+        font-size: 12px;
+    }
+    .areaVenture .boxPost .boxList li,
+    .areaVenture .boxPost .boxList li + li {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .areaVenture .boxPost .boxList li .linkPost {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .areaVenture .boxPost .pagingNav .navList li {
+        margin: 0 0.5%;
+    }
+}

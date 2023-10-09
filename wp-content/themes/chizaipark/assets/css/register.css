@@ -1,0 +1,483 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* REGISTER STYLE
+*
+***************************************************************************/
+
+.header img, .footer img {
+	width: 100%;
+}
+#breadcrumbs {
+    padding: 23px 0 14px;
+}
+/*AREAREGISTER*/
+.areaRegister .registerStep {
+	text-align: center;
+	margin-left: -22px;
+	margin-bottom: 44px;
+}
+.areaRegister .registerStep li {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 145px;
+	font-size: 12px;
+	color: #F77E13;
+	padding: 12px 0;
+	margin-right: -10.5px;
+}
+.areaRegister .registerStep li.active {
+	color: #fff;
+	border-radius: 4px 0 0 4px;
+}
+.areaRegister .registerStep li.step1 {
+	background: url(../images/register/register-step-01.png) no-repeat center center/100%;
+}
+.areaRegister .registerStep li.step1.active {
+	background: url(../images/register/register-step-01-actived.png) no-repeat center center/100%;
+}
+.areaRegister .registerStep li.step2 {
+	background: url(../images/register/register-step-02.png) no-repeat center center/100%;
+	width: 146.2px;
+}
+.areaRegister .registerStep li.step2.active {
+	background: url(../images/register/register-step-02-actived.png) no-repeat center center/100%;
+}
+.areaRegister .registerStep li.step3 {
+	background: url(../images/register/register-step-03.png) no-repeat center center/100%;
+	width: 155px;
+}
+.areaRegister .registerStep li.step3.active {
+	background: url(../images/register/register-step-03-actived.png) no-repeat center center/100%;
+}
+.areaRegister .registerTitle {
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 62px;
+}
+
+.areaRegister .formRegister {
+	max-width: 716px;
+	margin: 0 auto;
+}
+.areaRegister .formRegister .formItem {
+	display: flex;
+	border-top: 1.5px dotted rgba(112,112,112,0.5);
+	padding: 20px 0 16px;
+}
+.areaRegister .formRegister .formItem:first-child {
+	padding: 19px 0 16px;
+}
+
+.areaRegister .formRegister .formItem .formName {
+	width: 259px;
+	padding-left: 16px;
+	margin-top: 11px;
+}
+.areaRegister .formRegister .formItem .formName .require {
+	display: inline-block;
+	vertical-align: 1px;
+	width: 40px;
+	height: 14px;
+	font-size: 10px;
+	color: #fff;
+	background: #E23030;
+	border-radius: 12px;
+	text-align: center;
+	margin-left: 4px;
+}
+.areaRegister .formRegister .formItem .formInput {
+	width: 400px;
+} 
+.areaRegister .formRegister .formItem .formInput .reInput {
+	margin: 4px 0 1px;
+}
+.areaRegister .formRegister .formItem .formInput .inputStyle {
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	appearance:         none;
+	border-radius: 3px;
+	border: 1px solid #707070;
+	width: 100%;
+	height: 40px;
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 10px;
+}
+.areaRegister .formRegister .formItem .formInput .inputNote {
+	font-size: 12px;
+	color: #AAAAAA;
+	margin-top: 7px;
+	margin-left: 1px;
+}
+
+.areaRegister .formRegister .formItem .formInput .radioWrap {
+	margin: 10px 0 19px;
+}
+/*CUSTOM RADIO BUTTON*/
+.areaRegister .formRegister .formItem .formInput .radioButton {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin-right: 37px;
+	font-weight: bold;
+	padding-left: 27px;
+}
+.areaRegister .formRegister .formItem .formInput .radioButton.disagree {
+	font-weight: normal;
+}
+.areaRegister .formRegister .formItem .formInput .radioButton .radioStyle {
+	position: absolute;
+	opacity: 0;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.areaRegister .formRegister .formItem .formInput .radioButton .labelStyle {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 0;
+	top: 2px;
+}
+.areaRegister .formRegister .formItem .formInput .radioButton .labelStyle:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 15px;
+	height: 15px;
+	background: #fff; 
+	border-radius: 50%;
+	border: 1px solid #939393;
+}
+.areaRegister .formRegister .formItem .formInput .radioButton .labelStyle:after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: calc(50%);
+	transform: translate(-50%, -50%);
+	width: 9.5px;
+	height: 9.5px;
+	background: #939393;
+	border-radius: 50%;
+	opacity: 0;
+	transition: all 150ms linear;
+}
+.areaRegister .formRegister .formItem .formInput .radioButton .radioStyle:checked ~ .labelStyle:after {
+	opacity: 1;
+}
+/*CUSTOM RADIO BUTTON*/
+
+.areaRegister .formRegister .formItem .formInput .privacy {
+	border-radius: 3px;
+	border: 1px solid #707070;
+	border-right: 0;
+	width: 100%;
+	height: 97px;
+	padding: 0 0 0 8px;
+	margin-bottom: 19px;
+	overflow-y: auto;
+}
+.areaRegister .formRegister .formItem .formInput .privacy p {
+	font-size: 12px;
+	padding: 12px 0;
+}
+
+.areaRegister .formRegister .formItem .formInput .privacy  .mCSB_scrollTools {
+	width: 13px;
+	right: 0;
+	top: 0;
+	border: 1px solid #707070;
+	border-radius: 3px;
+}
+.areaRegister .formRegister .formItem .formInput .privacy .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 6px;
+	height: 17px;
+	border-radius: 3px;
+	background: #C1C1C1;
+}
+.areaRegister .formRegister .formItem .formInput .privacy .mCSB_scrollTools .mCSB_dragger {
+	height: auto;
+}
+.areaRegister .formRegister .formItem .formInput .privacy .mCSB_scrollTools .mCSB_draggerRail {
+	width: 1px;
+	height: 88%;
+	border-radius: 0;
+	background: #fff;
+}
+.mCSB_inside > .mCSB_container {
+	margin-right: 13px;
+}
+.areaRegister .formRegister .formItem.formSubmit {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0;
+	padding-top: 50px;
+}
+.areaRegister .formRegister .formItem .submitStyle {
+	border-radius: 30px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Noto Sans JP', sans-serif;
+	max-width: 48.9%;
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	border: 2px solid #F77E13;
+	color: #F77E13;
+	font-weight: normal;
+	transition: all 250ms linear;
+}
+.areaRegister .formRegister .formItem .submitStyle.check {
+	background: #F77E13;
+	color: #fff;
+	font-weight: bold;
+}
+.areaRegister .formRegister .formItem .submitStyle:hover {
+	opacity: 0.8;
+}
+.areaRegister {
+	padding-bottom: 112px;
+}
+
+
+.areaRegister.Step2 .formRegister .formItem .formName {
+	width: 192px;
+	margin-top: 0;
+}
+.areaRegister.Step2 .formRegister .formItem {
+    padding: 30px 0 45px;
+}
+.areaRegister.Step2 .formRegister .formItem:first-child {
+    padding: 29px 0 50px;
+}
+.areaRegister.Step2 .formRegister .formItem .formText.password {
+	font-size: 18px;
+	color: rgba(51,51,51,0.8);
+	font-weight: normal;
+	margin-top: -2px;
+	letter-spacing: -0.5px;
+}
+.areaRegister.Step2 .formRegister .formItem.formSubmit {
+	padding: 65px 0 16px;
+}
+
+.areaRegister .formFinish {
+	background: #FFF8EF;
+	border-radius: 10px;
+	padding: 36px 65px 49px;
+}
+.areaRegister.Step3 .registerStep {
+	margin-bottom: 24px;
+}
+.areaRegister .formFinish .finishTitle {
+	font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+.areaRegister .formFinish .iconFinish {
+	text-align: center;
+	padding-right: 24px;
+	margin-bottom: 26px;
+}
+.areaRegister .formFinish .mailFinish {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 56px;
+}
+.areaRegister .formFinish .contentFinish {
+
+}
+.areaRegister .formFinish .contentFinish .finishText {
+	line-height: 1.45;
+	margin-bottom: 20px;
+}
+.areaRegister .formFinish .contentFinish .finishText.mb {
+	margin-bottom: 86px;
+}
+.areaRegister .formFinish .contentFinish .finishList {
+	margin-bottom: 20px;
+}
+.areaRegister .formFinish .contentFinish .finishList li {
+	line-height: 1.45;
+	padding-left: 14px;
+	text-indent: -14px;
+}
+.areaRegister .formFinish .contentFinish .finishList li a {
+	color: #333;
+}
+.areaRegister .formFinish .contentFinish .finishList li a:hover {
+	text-decoration: underline;
+}
+.areaRegister .formFinish .contentFinish .toTopPage {
+	text-align: center;
+	padding-right: 8px;
+}
+.areaRegister .formFinish .contentFinish .toTopPage a {
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	color: #F77E13;
+	border-bottom: 1px solid #F77E13;
+	line-height: 1.1;
+}
+.areaRegister .formFinish .contentFinish .toTopPage a:hover {
+	border-bottom: 1px solid transparent;
+}
+.areaRegister .formFinish .contentFinish .toTopPage a:before {
+	content: '';
+	position: absolute;
+	width: 9.7px;
+	height: 16px;
+	top: 50%;
+	left: -20px;
+	transform: translateY(-50%);
+	background: url(../images/register/icon-arrow.svg) no-repeat center center/100%;
+}
+
+
+/*IE FIX*/
+@media all and (-ms-high-contrast:none) {
+	.areaRegister .formRegister .formItem .formInput .radioButton .labelStyle {
+		top: 4px;
+	}
+	.areaRegister .formRegister .formItem .formName .require {
+		vertical-align: 1px;
+		padding-top: 4px;
+	}
+	.areaRegister .registerStep li {
+		padding: 12px 0 11px;
+	}
+}
+
+/*SP STYLE*/
+@media (max-width: 768px) {
+	.header, .footer {
+		display: none;
+	}
+	#breadcrumb .breadcrumb {
+		padding-top: 5px;
+	}
+	#breadcrumb .breadcrumb li {
+		display: inline;
+	}
+
+	.areaRegister .registerStep {
+	    margin-left: 0;
+	    margin-bottom: 10px;
+	}
+	.areaRegister .registerStep li {
+		width: 100px;
+		padding: 5px 0;
+		margin-right: -5px;
+	}
+	.areaRegister .registerStep li.step2 {
+		width: 100.2px;
+	}
+	.areaRegister .registerStep li.step3 {
+		width: 107px;
+	}
+
+	.areaRegister .registerTitle {
+	    font-size: 14px;
+	    margin-bottom: 20px;
+	    letter-spacing: -1.5px;
+	}
+	.areaRegister .formRegister .formItem {
+		flex-direction: column;
+		padding: 10px 0;
+	}
+	.areaRegister .formRegister .formItem:first-child {
+		padding: 10px 0;
+	}
+	.areaRegister .formRegister .formItem .formName {
+		width: 100%;
+		padding-left: 0;
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+	.areaContact .formContact .formItem .formName .require {
+		height: 16px;
+	}
+	.areaRegister .formRegister .formItem .formInput {
+		width: 100%;
+	}
+	.areaRegister .formRegister .formItem .formInput .inputStyle {
+		height: 30px;
+	}
+	.areaRegister .formRegister .formItem .formInput .inputNote {
+		margin-top: 5px;
+		margin-left: 0;
+	}
+	.areaRegister .formRegister .formItem.formSubmit {
+		padding-top: 15px;
+		flex-direction: row;
+	}
+	.areaRegister .formRegister .formItem .submitStyle {
+		font-size: 14px;
+		height: 40px;
+	}
+	.areaRegister .formRegister .formItem .formInput .radioWrap {
+		margin: 0 0 10px;
+	}
+
+	.areaRegister.Step2 .formRegister .formItem:first-child,
+	.areaRegister.Step2 .formRegister .formItem {
+		padding: 10px 0;
+	}
+	.areaRegister.Step2 .formRegister .formItem.formSubmit {
+		padding: 20px 0 10px;
+	}
+
+	.areaRegister .formFinish {
+		padding: 30px 4%;
+	}
+	.areaRegister .formFinish .finishTitle {
+	    font-size: 16px;
+	    margin-bottom: 15px;
+	}
+	.areaRegister .formFinish .iconFinish {
+	    padding-right: 0;
+	    margin-bottom: 10px;
+	}
+	.areaRegister .formFinish .mailFinish {
+	    font-size: 16px;
+	    margin-bottom: 20px;
+	}
+	.areaRegister .formFinish .contentFinish .finishText.mb {
+	    margin-bottom: 40px;
+	}
+}	
+
+/*5S STYLE*/
+@media (max-width: 320px) {
+	.areaRegister .registerStep li {
+		font-size: 11px;
+	}
+	.areaRegister .registerStep li.step1 {
+		width: 90px;
+	}
+	.areaRegister .registerStep li.step2 {
+		width: 90.2px;
+	}
+	.areaRegister .registerStep li.step3 {
+		width: 97px;
+	}
+}

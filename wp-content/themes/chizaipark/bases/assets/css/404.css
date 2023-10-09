@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/***************************************************************************
+ *
+ * 404 STYLE
+ *
+ ***************************************************************************/
+
+.page-not-found {
+	text-align: center;
+	padding: 100px 4%;
+}
+.page-not-found .not-found-title {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.page-not-found .not-found-404 {
+	font-size: 150px;
+	letter-spacing: 30px;
+	margin-bottom: 20px;
+	color: #807d7d;
+}
+
+/*SP STYLE*/
+@media (max-width: 768px) {
+	.page-not-found {
+		width: 100%;
+	}
+	.page-not-found .not-found-title {
+	    font-size: 20px;
+	    margin-bottom: 10px;
+	}
+	.page-not-found .not-found-404 {
+	    font-size: 100px;
+	    letter-spacing: 10px;
+	}
+	.page-not-found .not-found-note {
+		font-size: 14px;
+		text-align: justify;
+		text-align-last: center;
+	}

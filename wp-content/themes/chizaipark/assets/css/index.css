@@ -1,0 +1,895 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* STYLE
+*
+***************************************************************************/
+#fixH {
+    height: 152.688px !important;
+}
+
+#main {
+    height: 250px;
+    background: url(../images/index/main.jpg) no-repeat center center/cover;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+.wrapContent {
+    overflow: hidden;
+    margin-bottom: 140px;
+}
+
+.contentLetf {
+    width: 750px;
+    float: left;
+}
+
+.btnMore {
+    text-align: right;
+}
+
+.btnMore a {
+    display: inline-block;
+    width: 280px;
+    text-align: center;
+    background: #F77E13;
+    border: 2px solid #F77E13;
+    border-radius: 35px;
+    transition: all 0.3s;
+}
+
+.btnMore a span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 0 7px;
+    padding-left: 27px;
+    background: url(../images/joseikin/arrow-info.svg) no-repeat left top 9px;
+    letter-spacing: 2px;
+}
+
+/*.areaGrant*/
+.areaGrant {
+    margin-bottom: 49px;
+}
+
+.areaGrant .grantTitle {
+    font-size: 18px;
+    padding-left: 30px;
+    background: url(../images/joseikin/icon-pen.svg) no-repeat left top 5px;
+    background-size: 20px 20px;
+    margin-bottom: 29px;
+    letter-spacing: 2px;
+}
+
+.areaGrant .listPost {
+    margin-bottom: 20px;
+}
+
+.areaGrant .listPost li {
+    padding: 16px 0 11px 16px;
+    border-top: 1px dotted #707070;
+}
+
+.areaGrant .listPost li:last-child {
+    border-bottom: 1px dotted #707070;
+}
+
+.areaGrant .listPost li .date {
+    display: inline-block;
+    width: 110px;
+    margin-right: 21px;
+    vertical-align: top;
+}
+
+.areaGrant .listPost li .cate {
+    width: 69px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 47px;
+    line-height: 1.3;
+}
+
+.areaGrant .listPost li .cate a {
+    display: block;
+    font-size: 12px;
+    color: #FF9300;
+    border: 1px solid #FF9300;
+    text-align: center;
+    margin-top: 2px;
+    padding: 1px 0 2px;
+}
+
+.areaGrant .listPost li .text {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 255px);
+    word-break: break-all;
+    line-height: 1.45;
+}
+
+.areaGrant .listPost li .text a {
+    color: #333;
+    display: block;
+}
+
+.searchMap {
+    background: #FFF8EF;
+    text-align: center;
+    padding: 13px 0 48px;
+    margin-bottom: 49px;
+}
+
+.searchMap .searchMapTitle {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333333;
+    position: relative;
+    padding-left: 20px;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+
+.searchMap .searchMapTitle:after {
+    content: "";
+    position: absolute;
+    background: #F77E13;
+    width: 5px;
+    height: 50px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.searchMap .boxMap {
+    position: relative;
+}
+
+.searchMap .boxMap .map {
+    margin-left: 67px;
+}
+
+.searchMap .boxMap .listRegion li {
+    width: 150px;
+}
+
+.searchMap .boxMap .listRegion li a {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F77E13;
+    background: #fff;
+    border: 1px solid #F77E13;
+    padding: 6.5px 0 7.5px;
+    border-radius: 35px;
+    transition: all 0.3s;
+}
+
+.searchMap .boxMap .listRegion li a:hover {
+    color: #fff;
+    background: #F77E13;
+}
+
+.searchMap .boxMap .listRegion li:nth-child(1) {
+    position: absolute;
+    top: 10.5%;
+    left: 16.8%;
+}
+
+.searchMap .boxMap .listRegion li:nth-child(2) {
+    position: absolute;
+    top: 28.6%;
+    right: 7.9%;
+}
+
+.searchMap .boxMap .listRegion li:nth-child(3) {
+    position: absolute;
+    top: 41.5%;
+    left: 32.8%;
+}
+
+.searchMap .boxMap .listRegion li:nth-child(4) {
+    position: absolute;
+    top: 53.8%;
+    left: 18.9%;
+}
+
+.searchMap .boxMap .listRegion li:nth-child(5) {
+    position: absolute;
+    top: 56.1%;
+    right: 13.2%;
+}
+
+.searchMap .boxMap .listRegion li:nth-child(6) {
+    position: absolute;
+    top: 72.5%;
+    right: 23.2%;
+}
+
+.searchMap .boxMap .listRegion li:nth-child(7) {
+    position: absolute;
+    top: 84.7%;
+    left: 4.9%;
+}
+
+.searchMap .boxMap .listRegion li:nth-child(8) {
+    position: absolute;
+    top: 84.9%;
+    right: 41.3%;
+}
+
+/*areaVenture*/
+.areaVenture {
+    margin-bottom: 82px;
+}
+
+.areaVenture .boxTitle {
+    position: relative;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    background: url(../images/index/icon-news.svg) no-repeat left top 5px;
+    background-size: 21px 20px;
+    margin-bottom: 19px;
+}
+
+.areaVenture .boxList {
+    margin-bottom: 36px;
+}
+
+.areaVenture .boxList li {
+    border-top: 1.5px dotted rgba(112, 112, 112, 0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 17px 7px;
+    min-height: 83px;
+}
+
+.areaVenture .boxList li:last-child {
+    border-bottom: 1.5px dotted rgba(112, 112, 112, 0.5);
+}
+
+.areaVenture .boxList li .date {
+    width: 200px;
+}
+
+.areaVenture .boxList li .linkPost {
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 2px;
+    width: 780px;
+}
+
+.areaVenture .boxList li .linkPost a {
+    color: #333333;
+}
+
+/*areaSeminar*/
+.areaSeminar .infoTitle {
+    font-size: 18px;
+    padding-left: 24px;
+    background: url(../images/seminar/seminar-icon.svg) no-repeat left -2px top 5px;
+    background-size: 20px 20px;
+    margin-bottom: 29px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.areaSeminar .listSemina {
+    margin-bottom: 25px;
+}
+
+.areaSeminar .listSemina li {
+    border-top: 1px dotted #707070;
+    padding: 19px 3px 16px 0;
+}
+
+.areaSeminar .listSemina li:last-child {
+    border-bottom: 1px dotted #707070;
+}
+
+.areaSeminar .listSemina li .date {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 31px;
+}
+
+.areaSeminar .listSemina li .cate {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 16px;
+}
+
+.areaSeminar .listSemina li .cate a {
+    font-size: 12px;
+    display: block;
+    width: 70px;
+    text-align: center;
+    border: 1px solid #FF9300;
+    color: #FF9300;
+}
+
+.areaSeminar .listSemina li .text {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    width: calc(100% - 285px);
+}
+
+.areaSeminar .listSemina li .text a {
+    color: #333;
+    display: block;
+}
+
+.areaSeminar .listSemina li .rowInfo {
+    font-size: 12px;
+    text-align: right;
+    margin-top: 12px;
+    margin-right: 4px;
+}
+
+.areaSeminar .listSemina li .rowInfo .time {
+    display: inline-block;
+    margin-right: 17px;
+    padding-left: 28px;
+    background: url(../images/seminar/icon-time.svg) no-repeat left center;
+    background-size: 15px 14px;
+}
+
+.areaSeminar .listSemina li .rowInfo .address {
+    display: inline-block;
+    margin-right: 17px;
+    padding-left: 16px;
+    background: url(../images/seminar/icon-marker.svg) no-repeat left center;
+    background-size: 11px 14px;
+}
+
+.areaSeminar .listSemina li .rowInfo .price {
+    display: inline-block;
+    margin-right: 17px;
+    padding-left: 17px;
+    background: url(../images/seminar/icon-yen.svg) no-repeat left center;
+    background-size: 12px 14px;
+}
+
+.areaSeminar .listSemina li .rowInfo .presided {
+    display: inline-block;
+}
+
+.areaSeminar .listSemina li .rowInfo .presided span {}
+
+/*sideBar*/
+.sideBar {
+    float: right;
+    width: 395px;
+    border-radius: 14px;
+}
+
+.areaPatent {
+    margin-bottom: 46px;
+}
+
+.areaPatent .patentTitle {
+    font-size: 18px;
+    display: inline-block;
+    border-bottom: 5px solid #F77E13;
+    font-weight: normal;
+    padding-bottom: 6px;
+    margin: 0 0 20px 4px;
+    letter-spacing: 2px;
+}
+
+.areaPatent .listPatent {
+    padding-left: 4px;
+    margin-bottom: 45px;
+}
+
+.areaPatent .patentBanner img {
+    width: 100%;
+}
+
+.areaPatent .listPatent li {
+    position: relative;
+    margin-bottom: 40px;
+    max-width: 390px;
+}
+
+.areaPatent .listPatent li:last-child {
+    margin-bottom: 0;
+}
+
+.areaPatent .listPatent li .infoName {
+    display: flex;
+    align-items: center;
+}
+
+.areaPatent .listPatent li .infoName .avatar {
+    width: 78px;
+    margin-right: 21px;
+}
+
+.areaPatent .listPatent li .infoName .name {
+    font-size: 18px;
+    line-height: 1.45;
+    letter-spacing: 2px;
+    margin-top: -8px;
+}
+
+.areaPatent .listPatent li .infoName .name .big {
+    font-size: 20px;
+}
+
+.areaPatent .listPatent li .infoName .name .small {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.areaPatent .listPatent li .linkInfo {
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+}
+
+.areaPatent .listPatent li .linkInfo a {
+    display: inline-block;
+    width: 80px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #F77E13;
+    background: #F77E13;
+    border-radius: 12px;
+    text-align: center;
+    padding: 1.5px 0 2.5px;
+    transition: all 0.3s;
+}
+
+/*.areaIntell*/
+.areaIntell {
+    padding-left: 4px;
+    margin-bottom: 36px;
+}
+
+.areaIntell .intellTitle {
+    font-size: 18px;
+    padding-left: 35px;
+    background: url(../images/index/icon-crow.svg) no-repeat left top 4px;
+    background-size: 26px 20px;
+    margin-bottom: 29px;
+    letter-spacing: 2px;
+}
+
+.areaIntell .listIntell {
+    border: 1px solid #B9B9B9;
+    margin-bottom: 20px;
+}
+
+.areaIntell .listIntell li {
+    border-bottom: 1px solid #B9B9B9;
+    padding: 14px 14px 17px;
+}
+
+.areaIntell .listIntell li:nth-child(2n) {
+    background: #F7F7F7;
+}
+
+.areaIntell .listIntell li:last-child {
+    border-bottom: none;
+}
+
+.areaIntell .listIntell li .date {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: -2px;
+    margin-left: 5px;
+}
+
+.areaIntell .listIntell li .cate {
+    display: inline-block;
+    width: 80px;
+}
+
+.areaIntell .listIntell li .cate a {
+    color: #F77E13;
+    border: 1px solid #F77E13;
+    border-radius: 35px;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+.areaIntell .listIntell li .text {
+    margin-top: 24px;
+    line-height: 1.45;
+}
+
+.areaIntell .listIntell li .text a {
+    color: #333;
+}
+
+/*.areaVenture*/
+.areaVentures {
+    padding-left: 4px;
+    margin-bottom: 24px;
+}
+
+.areaVentures .ventureTitle {
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 30px;
+    background: url(../images/index/icon-hand.svg) no-repeat left top 5px;
+    background-size: 21px 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.areaVentures .ventureList {
+    margin-bottom: 20px;
+}
+
+.areaVentures .ventureList li {
+    border-top: 1px dotted #707070;
+    padding: 6px 15px;
+}
+
+.areaVentures .ventureList li:last-child {
+    border-bottom: 1px dotted #707070;
+}
+
+.areaVentures .ventureList li a {
+    color: #333;
+}
+
+/*areaExamples*/
+.areaExamples {
+    padding-left: 4px;
+    margin-bottom: 37px;
+}
+
+.areaExamples .examplesTitle {
+    font-size: 18px;
+    padding-left: 28px;
+    background: url(../images/index/mic-icon.svg) no-repeat left top 5px;
+    background-size: 20px 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.areaExamples .examplesList {
+    margin-bottom: 20px;
+}
+
+.areaExamples .examplesList li {
+    padding: 5px 14px 11px;
+    border-top: 1px dotted #707070;
+}
+
+.areaExamples .examplesList li:last-child {
+    border-bottom: 1px dotted #707070;
+}
+
+.areaExamples .examplesList li a {
+    display: block;
+    color: #333;
+}
+
+.areaExamples .examplesList li .co {
+    margin-bottom: 14px;
+}
+
+.areaExamples .examplesList li .exLink {
+    line-height: 1.45;
+}
+
+/*areaRanking*/
+.areaRanking {
+    padding-left: 4px;
+}
+
+.areaRanking .rankingTitle {
+    font-size: 18px;
+    display: inline-block;
+    font-weight: normal;
+    border-bottom: 5px solid #F77E13;
+    margin-bottom: 10px;
+    letter-spacing: 1.8px;
+    padding-bottom: 5px;
+}
+
+.areaRanking .listRank li {
+    border-bottom: 1px dotted #707070;
+    padding: 5px 0 5px;
+    min-height: 56px;
+}
+
+.areaRanking .listRank li .numRank {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 28px;
+    margin-top: 2px;
+}
+
+.areaRanking .listRank li .numRank .num {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 28px;
+}
+
+.areaRanking .listRank li .numRank .num1 {
+    color: #CBAE38;
+    background: url(../images/index/numone-crown.svg) no-repeat left top 5px;
+    background-size: 25px 20px;
+}
+
+.areaRanking .listRank li .numRank .num2 {
+    color: #C6C1AB;
+    background: url(../images/index/numtwo-crown.svg) no-repeat left top 5px;
+    background-size: 25px 20px;
+}
+
+.areaRanking .listRank li .numRank .num3 {
+    color: #A3700E;
+    background: url(../images/index/numthree-crown.svg) no-repeat left top 5px;
+    background-size: 25px 20px;
+}
+
+.areaRanking .listRank li .rankDetail {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 88px);
+    font-weight: bold;
+}
+
+.areaRanking .listRank li .rankDetail a {
+    color: #333;
+}
+
+@media(max-width: 1265px) and (min-width: 986px) {
+    .contentLetf {
+        width: 63.4%;
+    }
+
+    .searchMap .boxMap .listRegion li {
+        width: 20%;
+    }
+
+    .searchMap .boxMap .listRegion li a {
+        font-size: 1.3vw;
+    }
+
+    .searchMap .boxMap .map {
+        margin-left: 11%;
+    }
+
+    .boxNarrow .narrowSearch .rowSearch {
+        width: 49.1%;
+    }
+
+    .sideBar {
+        width: 32.5%;
+    }
+}
+
+@media(max-width: 1165px) and (min-width: 769px) {
+
+    .searchMap .boxMap .listRegion li:nth-child(1) {
+        left: 14.8%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(2) {
+        right: 5.9%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(3) {
+        left: 30.8%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(4) {
+        left: 14.9%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(5) {
+        right: 10.2%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(6) {
+        right: 22.2%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(7) {
+        left: 1.9%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(8) {
+        right: 39.3%;
+    }
+
+}
+
+@media(max-width: 985px) and (min-width: 769px) {
+    .contentLetf {
+        width: 100%;
+    }
+
+    .searchMap .boxMap .map {
+        margin-left: 11%;
+    }
+
+    .sideBar {
+        width: 100%;
+    }
+}
+
+@media(min-width: 769px) {
+
+    .btnMore a:hover {
+        background: #fff;
+    }
+
+    .btnMore a:hover span {
+        color: #F77E13;
+        background: url(../images/joseikin/arrow-info-hover.svg) no-repeat left top 10px;
+    }
+
+    .areaPatent .listPatent li .linkInfo a:hover {
+        background: #fff;
+        color: #F77E13;
+    }
+}
+
+@media(max-width: 768px) {
+    #main {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .btnMore a {
+        width: 245px;
+    }
+
+    .btnMore a span {
+        font-size: 14px;
+        padding-left: 23px;
+        background: url(../images/joseikin/arrow-info.svg) no-repeat left top 9px;
+        background-size: 15px;
+    }
+
+    .wrapContent {
+        margin-bottom: 65px;
+    }
+
+    .contentLetf {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .areaGrant .grantTitle {
+        margin-bottom: 25px;
+    }
+
+    .areaGrant .listPost li {
+        padding: 15px 9px 12px;
+    }
+
+    .areaGrant .listPost li .text {
+        width: 100%;
+        display: block;
+        margin-top: 8px;
+    }
+
+    .areaGrant .listPost li .date {
+        font-size: 12px;
+        margin-right: 15px;
+        width: auto;
+    }
+
+    .areaGrant .listPost li .cate a {
+        font-size: 10px;
+        padding: 1px 0 2px;
+    }
+
+    /*searchMap*/
+    .searchMap {
+        margin: 0 0 40px 0;
+    }
+
+    .searchMap .boxMap .map {
+        margin: 0 0% 0 11%;
+    }
+
+    .searchMap .boxMap .map img {
+        width: 77%;
+    }
+
+    .searchMap .boxMap .listRegion li {
+        width: 23.2%;
+        max-width: 100px;
+    }
+
+    .searchMap .boxMap .listRegion li a {
+        font-size: 10px;
+        padding: 4.5px 0 6.5px;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(1) {
+        left: 11.9%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(2) {
+        right: 3.9%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(3) {
+        top: 39.5%;
+        left: 28.8%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(4) {
+        left: 11.9%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(5) {
+        right: 7.2%;
+    }
+
+    .searchMap .boxMap .listRegion li:nth-child(7) {
+        left: 0;
+    }
+
+    .areaVenture .boxList li {
+        padding: 17px 6px 7px;
+    }
+
+    .areaVenture .boxList li .date {
+        width: 105px;
+        font-size: 12px;
+    }
+
+    .areaVenture .boxList li .linkPost {
+        width: calc(100% - 80px);
+    }
+
+    .areaVenture {
+        margin-bottom: 45px;
+    }
+
+    .areaSeminar .listSemina li .text {
+        display: block;
+        width: 100%;
+        margin-top: 7px;
+    }
+
+    .areaSeminar .listSemina li .date {
+        margin-right: 8px;
+    }
+
+    .areaSeminar .listSemina li .rowInfo {
+        font-size: 9px;
+    }
+
+    .areaSeminar .listSemina li .rowInfo .time {
+        padding-left: 20px;
+        margin-right: 10px;
+    }
+
+    .areaSeminar .listSemina li .rowInfo .address,
+    .areaSeminar .listSemina li .rowInfo .price {
+        margin-right: 10px;
+    }
+    .sideBar {
+        width: 100%;
+        margin-top: 0;
+    }
+
+}

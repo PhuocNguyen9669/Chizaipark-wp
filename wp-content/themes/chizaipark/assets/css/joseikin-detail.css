@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* JOSEI-KIN DETAIL STYLE
+*
+***************************************************************************/
+
+
+
+/*CONTENT*/
+#fixH {
+	height: 153px !important;
+}
+
+.areaAfterLogin{
+	margin: 4px 0px 92px;
+}
+.areaAfterLogin .afterLoginWarp{
+	width: 1010px;
+	margin: 0 auto;
+}
+.areaAfterLogin .afterLoginWarp .infoTitle{
+	background: url(../images/josei-kin-information/icon-pen.svg) no-repeat left 7px;
+	background-size: 20px 20px;
+	font-size: 20px;
+	font-weight: normal;
+	border-bottom: 1px dotted #707070;
+	padding: 0 0 12px 31px;
+	letter-spacing: 1.5px;
+	margin-bottom: 30px;
+}
+.areaAfterLogin .afterLoginWarp .description{
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: -1px;
+	margin-bottom: 52px;
+	color: #454545;
+}
+.areaAfterLogin .afterLoginWarp .tableAfterLogin{
+	border: 1px solid #CCCCCC;
+	width: 100%;
+	margin-bottom: 11px;
+	font-size: 14px;
+	color: #454545;
+}
+.areaAfterLogin .afterLoginWarp .tableAfterLogin tr{
+	border-bottom: 1px solid #CCCCCC;
+}
+.areaAfterLogin .afterLoginWarp .tableAfterLogin tr:nth-child(2n){
+	background: #FFF8EF;
+}
+.areaAfterLogin .afterLoginWarp .tableAfterLogin tr th{
+	width: 323px;
+	padding: 18px 10px 19px 30px;
+	border-right: 1px solid #CCCCCC;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: top;
+}
+.areaAfterLogin .afterLoginWarp .tableAfterLogin tr td{
+	padding: 18px 5px 19px 30px;
+	line-height: 1.4;
+}
+.areaAfterLogin .afterLoginWarp .tableAfterLogin tr:nth-last-child(2) td{
+	padding: 22px 5px 18px 30px;
+}
+.areaAfterLogin .afterLoginWarp .tableAfterLogin tr td a{
+	text-decoration: underline;
+	word-break: break-all;
+	color: #454545;
+}
+.areaAfterLogin .afterLoginWarp .tableAfterLogin tr td .dot{
+	font-size: 7px;
+}
+.areaAfterLogin .afterLoginWarp .dateUpdate{
+	margin: 0 0 19px 23px;
+    font-size: 14px;
+    letter-spacing: -0.3px;
+}
+.areaAfterLogin .afterLoginWarp .buttonAfterLogin{
+	text-align: center;
+}
+.areaAfterLogin .afterLoginWarp .buttonAfterLogin a{
+	background: #F77E13;
+	border: 2px solid #F77E13;
+	display: inline-block;
+	width: 385px;
+	height: 74px;
+	border-radius: 40px;
+	padding-top: 22px;
+	font-size: 20px;
+	color: #fff;
+	transition: all 0.3s;
+}
+.areaAfterLogin .afterLoginWarp .buttonAfterLogin a:hover {
+    background: #fff;
+    color: #F77E13;
+}
+
+
+@media (max-width: 1070px){
+	.areaAfterLogin .afterLoginWarp{
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 768px){
+
+	.areaAfterLogin{
+		margin-bottom: 70px;
+	}
+	.areaAfterLogin .afterLoginWarp .note,
+	.areaAfterLogin .afterLoginWarp .tableAfterLogin{
+		font-size: 12px;
+	}
+	.areaAfterLogin .afterLoginWarp .areaLogin{
+		font-size: 18px;
+	}
+	.areaAfterLogin .afterLoginWarp .tableAfterLogin tr th{
+		width: 105px;
+		padding: 13px 7px 13px 15px;
+	}
+	.areaAfterLogin .afterLoginWarp .tableAfterLogin tr td{
+		padding: 13px 7px 13px 17px;
+	}
+	.areaAfterLogin .afterLoginWarp .tableAfterLogin tr:nth-last-child(2) td {
+		padding: 15px 7px 0px 17px;
+	}
+	.areaAfterLogin .afterLoginWarp .buttonAfterLogin a{
+		width: 100%;
+	}
+	.areaAfterLogin .afterLoginWarp .dateUpdate{
+		font-size: 13px;
+	}
+	.areaAfterLogin .afterLoginWarp .buttonAfterLogin{
+		padding: 0 20px;
+	}
+	.areaAfterLogin .afterLoginWarp .buttonAfterLogin a{
+		height: 60px;
+		padding-top: 15px;
+	}
+}

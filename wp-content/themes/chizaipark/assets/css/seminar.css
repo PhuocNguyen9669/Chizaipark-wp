@@ -1,0 +1,358 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* STYLE
+*
+***************************************************************************/
+/*gen info*/
+
+#fixH {
+    height: 153px !important;
+}
+
+#main .mainTitle{
+	padding-left: 50px;
+	position: relative;
+}
+#main .mainTitle:after{
+	content: "";
+	position: absolute;
+	background: url(../images/seminar/semina-title.svg) no-repeat;
+	background-size: 100%;
+	width: 32px;
+	height: 41px;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+/*gen info*/
+
+
+#breadcrumbs{
+	margin-bottom: 6px;
+}
+.wrapContent{
+	overflow: hidden;
+	margin-bottom: 81px;
+}
+
+.contentLetf{
+	width: 760px;
+	float: left;
+}
+
+.areaSeminar .infoTitle{
+	font-size: 18px;
+	padding-left: 24px;
+	background: url(../images/seminar/seminar-icon.svg) no-repeat left -2px top 5px;
+	background-size: 20px 20px;
+	margin-bottom: 13px;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+.areaSeminar .numnews{
+	float: right;
+    margin-top: -35px;
+    margin-right: 9px;
+    letter-spacing: 1.5px;
+}
+.areaSeminar .listSemina{
+
+}
+.areaSeminar .listSemina li{
+	
+}
+
+.areaSeminar .listSemina li .date{
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 31px;
+}
+.areaSeminar .listSemina li .date .th{
+	
+}
+.areaSeminar .listSemina li .cate{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 16px;
+}
+.areaSeminar .listSemina li .cate a{
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	width: 70px;
+	text-align: center;
+	border: 1px solid #FF9300;
+	color: #FF9300;
+}
+.areaSeminar .listSemina li .text {
+	display: inline-block;
+	vertical-align: top;
+	font-weight: bold;
+	width: calc( 100% - 285px);
+}
+.areaSeminar .listSemina li .rowInfo {
+	font-size: 12px;
+    text-align: right;
+    margin-top: 12px;
+    margin-right: 4px;
+}
+.areaSeminar .listSemina li .rowInfo .time{
+	display: inline-block;
+	margin-right: 17px;
+	padding-left: 28px;
+	background: url(../images/seminar/icon-time.svg) no-repeat left center;
+	background-size: 15px 14px;
+}
+
+.areaSeminar .listSemina li .rowInfo .address{
+	display: inline-block;
+	margin-right: 17px;
+	padding-left: 16px;
+	background: url(../images/seminar/icon-marker.svg) no-repeat left center;
+	background-size: 11px 14px;
+}
+.areaSeminar .listSemina li .rowInfo  .price{
+	display: inline-block;
+	margin-right: 17px;
+	padding-left: 17px;
+	background: url(../images/seminar/icon-yen.svg) no-repeat left center;
+	background-size: 12px 14px;
+}
+.areaSeminar .listSemina li .rowInfo  .presided{
+	display: inline-block;
+}
+
+
+
+
+/*sideBar*/
+.sideBar{
+	float: right;
+	width: 390px;
+	background: #FAF5E7;
+	margin-top: 5px;
+	border-radius: 14px;
+	padding-top: 27px;
+}
+
+.sideBar .boxRegion .regionTitle{
+	font-size: 18px;
+	font-weight: normal;
+	color: #333333;
+	position: relative;
+	padding-left: 19px;
+	letter-spacing: 2px;
+	margin-bottom: 8px;
+}
+.sideBar .boxRegion .regionTitle:after{
+	content: "";
+    position: absolute;
+    background: #F77E13;
+    width: 5px;
+    height: 50px;
+    left: 0;
+    top: 48%;
+    transform: translateY(-50%);
+}
+
+.sideBar .boxRegion .regionBox{
+	padding: 25px 0 13px 20px;
+	border-bottom: 1px dotted #707070;
+}
+.sideBar .boxRegion .regionBox:last-child{
+	border-bottom: none;
+}
+.sideBar .boxRegion .regionBox .listregionTitle{
+	font-size: 20px;
+	font-weight: normal;
+	padding-left: 32px;
+	background: url(../images/joseikin/icon-list.svg) no-repeat left center;
+	background-size: 21px 21px;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.sideBar .boxRegion .regionBox .listregionTitle.first{
+	font-weight: bold;
+}
+
+.sideBar .boxRegion .regionBox .listregion{
+	margin-left: 25px;
+}
+.sideBar .boxRegion .regionBox .listregion li{
+	display: inline-block;
+	margin-right: 18px;
+	margin-bottom: 16px;
+}
+
+.sideBar .boxRegion .regionBox .listregion li a{
+	font-size: 16px;
+}
+.sideBar .boxRegion .regionBox .listregion li span{
+	padding-left: 13px;
+	letter-spacing: 2px;
+	background: url(../images/joseikin/play-arrow.svg) no-repeat left top 8px;
+	background-size: 8px 10px;
+	transition: all 0.2s;
+
+}
+
+
+.areaSeminar .listSemina {
+	padding-right: 12px;
+	margin-bottom: 29px;
+}
+.areaSeminar .listSemina li{
+	border-top: 1px dotted #707070;
+	padding: 19px 0 16px;
+}
+.areaSeminar .listSemina li:last-child{
+	border-bottom: 1px dotted #707070;
+}
+
+.areaSeminar .pagingNav{
+	text-align: center;
+	margin-bottom: 68px;
+}
+
+.areaSeminar .pagingNav .navList{
+	
+}
+.areaSeminar .pagingNav .navList li{
+	display: inline-block;
+	margin: 0px 3.4px;
+}
+
+.areaSeminar .pagingNav .navList li a{
+	font-size: 14px;
+	border: 1px solid #707070;
+	width: 30px;
+	height: 30px;
+	padding: 3px 0;
+	display: block;
+	border-radius: 50px;
+	text-align: center;
+	transition: all 0.3s;
+}
+.areaSeminar .pagingNav .navList li.active a{
+	background: #F77E13;
+	color: #fff;
+	border: 1px solid #F77E13;
+}
+
+
+
+
+
+@media(max-width: 1265px) and (min-width: 986px){
+	.contentLetf{
+		width: 63.4%;
+	}
+	.sideBar{
+		width: 32.5%;	
+	}
+}
+
+@media(max-width: 985px) and (min-width: 769px){
+	.contentLetf{
+		width: 100%;
+	}
+	.sideBar{
+		width: 100%;	
+	}
+}
+
+@media(min-width: 769px){
+
+	.areaSeminar .pagingNav .navList li a:hover{
+		color: #F77E13;
+		border: 1px solid #F77E13;
+	}
+	.areaSeminar .pagingNav .navList li.active a:hover{
+		background: #F77E13;
+		color: #fff;
+		border: 1px solid #F77E13;
+	}
+	.sideBar .boxRegion .regionBox .listregion li a:hover span{
+		background: url(../images/joseikin/play-arrow.svg) no-repeat left 3px top 8px;
+	}
+}
+
+
+@media(max-width: 768px){
+	/*gen info*/
+	#main .mainTitle{
+		padding-left: 40px;
+	}
+	#main .mainTitle:after{
+		width: 28px;
+		height: 28px;
+	}
+	/*gen info*/
+	.contentLetf{
+		width: 100%;
+	}
+	.areaSeminar .pagingNav{
+		margin-bottom: 45px;
+	}
+	.areaSeminar .pagingNav .navList li {
+		margin: 0 0.8%;
+	}
+	.areaSeminar .listSemina li .date{
+		margin-right: 8px;
+	}
+
+	.areaSeminar .listSemina li .text{
+		display: block;
+		width: 100%;
+		margin-top: 7px;
+	}
+	.areaSeminar .listSemina li .rowInfo{
+		font-size: 9px;
+	}
+	.areaSeminar .listSemina li .rowInfo .time{
+		padding-left: 20px;
+		margin-right: 10px;
+	}
+	.areaSeminar .listSemina li .rowInfo .address {
+		margin-right: 10px;
+	}
+	.areaSeminar .listSemina li .rowInfo .price{
+		margin-right: 10px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	.sideBar{
+		width: 100%;
+		margin-top: 0;
+	}
+	.sideBar .boxRegion .regionTitle{
+		font-size: 16px;
+	}
+	.sideBar .boxRegion .regionBox .listregionTitle{
+		font-size: 16px;
+	}
+	.sideBar .boxRegion .regionBox{
+		padding: 15px 0 5px 20px;
+	}
+	.sideBar .boxRegion .regionBox .listregion li span{
+		background: url(../images/joseikin/play-arrow.svg) no-repeat left top 5px;
+	}
+	.sideBar .boxRegion .regionBox .listregion li a {
+		font-size: 14px;
+	}
+
+
+
+}
